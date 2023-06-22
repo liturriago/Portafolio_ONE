@@ -1,0 +1,6 @@
+.descripcion__foto {
+    width: 100%;
+    height: 100%; /* Ajusta la altura automáticamente para mantener la proporción */
+    border-radius: 50%;
+    object-fit: cover; /* Ajusta el tamaño de la imagen para cubrir todo el contenedor */
+  }
