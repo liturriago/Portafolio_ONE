@@ -1,0 +1,6 @@
+.experiencia-profesional__contenedor {
+    display: flex;
+    flex-direction: column;
+    width: 84.57%;
+    padding-top: 5%;
+}
