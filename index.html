@@ -5,7 +5,8 @@
         <title>Portafolio ONE | Lucas Iturriago</title>
         <link href="css/reset.css" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <link href="css/body.css" rel="stylesheet">
         <link href="css/header.css" rel="stylesheet">
         <link href="css/header/header__nombre.css" rel="stylesheet">
         <link href="css/header/header__logo.css" rel="stylesheet">
@@ -19,8 +20,33 @@
         <link href="css/descripcion/descripcion__links.css" rel="stylesheet">
         <link href="css/descripcion/descripcion__links__flechas.css" rel="stylesheet">
         <link href="css/descripcion/descripcion__contenedor__contenedor.css" rel="stylesheet">
+        <link href="css/sobre-mi.css" rel="stylesheet">
+        <link href="css/sobre-mi/sobre-mi__titular.css" rel="stylesheet">
+        <link href="css/sobre-mi/sobre-mi__cuerpo.css" rel="stylesheet">
+        <link href="css/skills.css" rel="stylesheet">
+        <link href="css/skills/skills__titular.css" rel="stylesheet">
+        <link href="css/skills/skills__contenedor.css" rel="stylesheet">
+        <link href="css/skills/skills__contenedor__izquierdo.css" rel="stylesheet">
+        <link href="css/skills/skills__contenedor__derecho.css" rel="stylesheet">
+        <link href="css/skills/skills__iconos.css" rel="stylesheet">
+        <link href="css/skills/skills__lenguajes.css" rel="stylesheet">
+        <link href="css/hobbies.css" rel="stylesheet">
+        <link href="css/hobbies/hobbies__titular.css" rel="stylesheet">
+        <link href="css/hobbies/hobbies__contenedor.css" rel="stylesheet">
+        <link href="css/hobbies/hobbies__contenedor__izquierdo.css" rel="stylesheet">
+        <link href="css/hobbies/hobbies__contenedor__derecho.css" rel="stylesheet">
+        <link href="css/hobbies/hobbies__iconos.css" rel="stylesheet">
+        <link href="css/hobbies/hobbies__actividades.css" rel="stylesheet">
+        <link href="css/formacion-academica.css" rel="stylesheet">
+        <link href="css/formacion-academica/formacion-academica__titular.css" rel="stylesheet">
+        <link href="css/formacion-academica/formacion-academica__contenedor.css" rel="stylesheet">
+        <link href="css/formacion-academica/formacion-academica__contenedor__foto.css" rel="stylesheet">
+        <link href="css/formacion-academica/formacion-academica__logos.css" rel="stylesheet">
+        <link href="css/formacion-academica/formacion-academica__cuerpo.css" rel="stylesheet">
+        <link href="css/formacion-academica/formacion-academica__cuerpo__titulo.css" rel="stylesheet">
+        <link href="css/formacion-academica/formacion-academica__cuerpo__ano.css" rel="stylesheet">
     </head>
-    <body>
+    <body class="body">
         <header class="header">
             <h2 class="header__nombre"><img src="img/header-icono.png" alt="Icono de Avatar" class="header__logo">Lucas Iturriago</h2>
             <p><a href="mailto:lucasiturriago@gmail.com" class="header__contacto-email">lucasiturriago@gmail.com</a></p>
@@ -30,7 +56,7 @@
                 <div class="descripcion__contenedor__foto">
                     <img src="img/descripcion-foto.png" alt="Icono de Lucas Iturriago" class="descripcion__foto">
                 </div>
-                <p class="descripcion__titular">Hola soy Lucas Iturriago y construyo páginas web</p>
+                <p class="descripcion__titular">Hola, mi nombre Lucas Iturriago y construyo páginas web</p>
                 <p class="descripcion__cuerpo">Desarrollador Front-End en formación y actualmente estoy participando en el proyecto Oracle ONE en Alura Latam</p>
                 <div class="descripcion__contenedor__links">
                     <div class="descripcion__contenedor__contenedor"><p class="descripcion__links"><a href="https://github.com/liturriago">GitHub</a></p><a href="https://github.com/liturriago"><img src="img/arrow.svg" alt="Icono de flecha" class="descripcion__links__flechas"></a></div>
@@ -39,6 +65,111 @@
                     <div class="descripcion__contenedor__contenedor"><p class="descripcion__links"><a href="#">Currículo</a></p><a href="#"><img src="img/arrow.svg" alt="Icono de flecha" class="descripcion__links__flechas"></a></div>
                 </div>
             </section>
+            <section class="sobre-mi">
+                <h2 class="sobre-mi__titular">Sobre mí</h2>
+                <p class="sobre-mi__cuerpo">
+                    Soy un investigador joven graduado en ingeniería electrónica, actualmente formo parte del destacado Grupo de control y procesamiento de señales en la prestigiosa Universidad Nacional de Colombia. Mi enfoque principal se centra en el uso de Python para analizar señales y datos, especialmente en el campo de la inteligencia artificial aplicada a la visión por computador.<br>
+                    Dentro de este campo, he tenido la oportunidad de desarrollar algoritmos avanzados para el análisis y monitoreo del tráfico vehicular y peatonal en sistemas embebidos. Este trabajo ha implicado la implementación de técnicas sofisticadas que permiten obtener información valiosa para mejorar la eficiencia y seguridad de las ciudades.<br>
+                    Además de mi experiencia en ingeniería electrónica, también estoy en proceso de formación como programador Front-End. Durante este proceso, he adquirido conocimientos sólidos en la creación de páginas web, destacando mis habilidades en HTML y CSS. Gracias a esto, puedo diseñar y desarrollar sitios web visualmente atractivos y funcionales.<br>
+                    Mi enfoque en la creación de páginas web también se ha extendido hacia la creación de diseños responsivos, los cuales se adaptan de manera óptima a las diferentes pantallas de los dispositivos. Esto permite brindar una experiencia de usuario excepcional, sin importar el dispositivo que utilicen.<br>
+                    Además, he explorado el uso de JavaScript para agregar interactividad y dinamismo a mis proyectos web. Esto ha permitido crear experiencias más atractivas y funcionales para los usuarios, llevando la interacción a un nuevo nivel.<br>
+                </p>
+            </section>
+            <section class="skills">
+                <h2 class="skills__titular">Skills</h2>
+                <div class="skills__contenedor">
+                    <div class="skills__contenedor__izquierdo">
+                        <img src="img/html5.svg" alt="Icono de HTML5" class="skills__iconos">
+                        <p class="skills__lenguajes">HTML5</p>
+                    </div>
+                    <div class="skills__contenedor__derecho">
+                        <img src="img/css.svg" alt="Icono de CSS" class="skills__iconos">
+                        <p class="skills__lenguajes">CSS</p>
+                    </div>
+                </div>
+                <div class="skills__contenedor">
+                    <div class="skills__contenedor__izquierdo">
+                        <img src="img/javascript.svg" alt="Icono de JavaScript" class="skills__iconos">
+                        <p class="skills__lenguajes">JavaScript</p>
+                    </div>
+                    <div class="skills__contenedor__derecho">
+                        <img src="img/python.svg" alt="Icono de Python" class="skills__iconos">
+                        <p class="skills__lenguajes">Python</p>
+                    </div>
+                </div>
+                <div class="skills__contenedor">
+                    <div class="skills__contenedor__izquierdo">
+                        <img src="img/node-js.svg" alt="Icono de Node.JS" class="skills__iconos">
+                        <p class="skills__lenguajes">Node.JS</p>
+                    </div>
+                    <div class="skills__contenedor__derecho">
+                        <img src="img/matlab.svg" alt="Icono de Matlab" class="skills__iconos">
+                        <p class="skills__lenguajes">Matlab</p>
+                    </div>
+                </div>
+            </section>
+            <section class="hobbies">
+                <h2 class="hobbies__titular">Hobbies</h2>
+                <div class="hobbies__contenedor">
+                    <div class="hobbies__contenedor__izquierdo">
+                        <img src="img/jugar.png" alt="Icono de Jugar" class="hobbies__iconos">
+                        <p class="hobbies__actividades">Jugar</p>
+                    </div>
+                    <div class="hobbies__contenedor__derecho">
+                        <img src="img/series.png" alt="Icono de Ver series" class="hobbies__iconos">
+                        <p class="hobbies__actividades">Ver series</p>
+                    </div>
+                </div>
+                <div class="hobbies__contenedor">
+                    <div class="hobbies__contenedor__izquierdo">
+                        <img src="img/redes-sociales.png" alt="Icono de Ver redes sociales" class="hobbies__iconos">
+                        <p class="hobbies__actividades">Ver RRSS</p>
+                    </div>
+                    <div class="hobbies__contenedor__derecho">
+                        <img src="img/futbol.png" alt="Icono de Jugar fútbol" class="hobbies__iconos">
+                        <p class="hobbies__actividades">Jugar fútbol</p>
+                    </div>
+                </div>
+                <div class="hobbies__contenedor">
+                    <div class="hobbies__contenedor__izquierdo">
+                        <img src="img/ciclismo.png" alt="Icono de Ciclismo" class="hobbies__iconos">
+                        <p class="hobbies__actividades">Ciclismo</p>
+                    </div>
+                    <div class="hobbies__contenedor__derecho">
+                        <img src="img/leer-noticias.png" alt="Icono de Leer noticias" class="hobbies__iconos">
+                        <p class="hobbies__actividades">Leer noticias</p>
+                    </div>
+                </div>
+            </section>
+            <section class="formacion-academica">
+                <h2 class="formacion-academica__titular">Formación académica</h2>
+                <div class="formacion-academica__contenedor">
+                    <div class="formacion-academica__contenedor__foto">
+                        <img src="img/logo-unal.webp" alt="Logo de Universidad Nacional de Colombia" class="formacion-academica__logos">
+                    </div>
+                    <div class="formacion-academica__cuerpo">
+                        <p class="formacion-academica__cuerpo__titulo">Ingeniería eléctronica</p>
+                        <p class="formacion-academica__cuerpo__ano">2023 - UNAL</p>
+                    </div>
+                </div>
+                <div class="formacion-academica__contenedor">
+                    <div class="formacion-academica__contenedor__foto">
+                        <img src="img/logo-alura.webp" alt="Logo de Alura" class="formacion-academica__logos">
+                    </div>
+                    <div class="formacion-academica__cuerpo">
+                        <p class="formacion-academica__cuerpo__titulo">Desarrollo Front-End</p>
+                        <p class="formacion-academica__cuerpo__ano">2023 - ALURA</p>
+                    </div>
+                </div><div class="formacion-academica__contenedor">
+                    <div class="formacion-academica__contenedor__foto">
+                        <img src="img/logo-platzi.webp" alt="Logo de Platzi" class="formacion-academica__logos">
+                    </div>
+                    <div class="formacion-academica__cuerpo">
+                        <p class="formacion-academica__cuerpo__titulo">Programa de Inteligencia artificial</p>
+                        <p class="formacion-academica__cuerpo__ano">2019 - Platzi</p>
+                    </div>
+                </div>
+            </section>   
         </main>
         <footer>
         </footer>

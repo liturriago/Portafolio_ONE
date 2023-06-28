@@ -1,0 +1,9 @@
+.formacion-academica__contenedor__foto{
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 11.45%;
+    padding-bottom: 11.45%;
+}

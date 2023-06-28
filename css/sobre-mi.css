@@ -1,0 +1,8 @@
+.sobre-mi {
+    background-color: #EAF2FD;
+    display: flex;
+    flex-direction: column;
+    padding-top: 4%;
+    padding-bottom: 5%;
+    width: 100%;
+}

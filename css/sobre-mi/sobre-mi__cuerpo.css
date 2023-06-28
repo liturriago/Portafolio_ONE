@@ -1,10 +1,9 @@
-.descripcion__titular{
+.sobre-mi__cuerpo {
+    padding-top: 4%;
     padding-left: 8%;
     padding-right: 8%;
-    padding-top: 2%;
     font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 137.5%;
+    font-weight: 400;
     color: #464646;
     text-align: justify;
 }
