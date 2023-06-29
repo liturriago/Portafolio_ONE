@@ -65,15 +65,6 @@
         <link href="css/contacto/contacto__contenedor__correo.css" rel="stylesheet">
         <link href="css/contacto/contacto__contenedor__correo__titular.css" rel="stylesheet">
         <link href="css/contacto/contacto__contenedor__correo__input.css" rel="stylesheet">
-        <link href="css/contacto/contacto__contenedor__asunto.css" rel="stylesheet">
-        <link href="css/contacto/contacto__contenedor__asunto__input.css" rel="stylesheet">
-        <link href="css/contacto/contacto__contenedor__mensaje.css" rel="stylesheet">
-        <link href="css/contacto/contacto__contenedor__mensaje__contenedor.css" rel="stylesheet">
-        <link href="css/contacto/contacto__contenedor__mensaje__input.css" rel="stylesheet">
-        <link href="css/contacto/contacto__contenedor__boton.css" rel="stylesheet">
-        <link href="css/contacto/contacto__contenedor__boton__enviar.css" rel="stylesheet">
-        <link href="css/footer.css" rel="stylesheet">
-        <link href="css/footer/footer__texto.css" rel="stylesheet">
     </head>
     <body class="body">
         <header class="header">
@@ -247,24 +238,12 @@
                 </div>
                 <div class="contacto__contenedor__asunto">
                     <div>
-                        <input type="text" class="contacto__contenedor__asunto__input" required placeholder="Asunto">
+                        <input type="text" class="contacto__contenedor__asunto__input" required placeholder="correo@dominio.com">
                     </div>
-                </div>
-                <div class="contacto__contenedor__mensaje">
-                    <div class="contacto__contenedor__mensaje__contenedor">
-                        <input type="text" class="contacto__contenedor__mensaje__input" required placeholder="Mensaje">
-                    </div>
-                </div>
-                <div class="contacto__contenedor__boton">
-                    <button class="contacto__contenedor__boton__enviar"><a href="#">Enviar mensaje</a></button>
                 </div>
             </section>   
         </main>
-        <footer class="footer">
-            <p class="footer__texto">
-                Desarrollado por Lucas Iturriago <br>
-                2023
-            </p>
+        <footer>
         </footer>
     </body>
 </html>
@@ -304,35 +283,5 @@ correo__input.addEventListener('focus', function(){
 correo__input.addEventListener('blur', function(){
     correo__titular.style.color = "#A2A2A2";
     correo__contenedor.style.borderBottomColor = "#A2A2A2";
-});
-const asunto__input = document.querySelector('.contacto__contenedor__asunto__input');
-const asunto__contenedor = document.querySelector('.contacto__contenedor__asunto');
-asunto__input.addEventListener('input', () => {
-  if (asunto__input.value !== '') {
-    asunto__input.style.color = 'black';
-  } else {
-    asunto__input.style.color = "#A2A2A2";
-  }
-});
-asunto__input.addEventListener('focus', function(){
-    asunto__contenedor.style.borderBottomColor = "#2A7AE4";
-});
-asunto__input.addEventListener('blur', function(){
-    asunto__contenedor.style.borderBottomColor = "#A2A2A2";
-});
-const mensaje__input = document.querySelector('.contacto__contenedor__mensaje__input');
-const mensaje__contenedor = document.querySelector('.contacto__contenedor__mensaje');
-mensaje__input.addEventListener('input', () => {
-  if (mensaje__input.value !== '') {
-    mensaje__input.style.color = 'black';
-  } else {
-    mensaje__input.style.color = "#A2A2A2";
-  }
-});
-mensaje__input.addEventListener('focus', function(){
-    mensaje__contenedor.style.borderBottomColor = "#2A7AE4";
-});
-mensaje__input.addEventListener('blur', function(){
-    mensaje__contenedor.style.borderBottomColor = "#A2A2A2";
 });
 </script>

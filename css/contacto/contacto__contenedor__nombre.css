@@ -1,0 +1,16 @@
+.contacto__contenedor__nombre {
+    width: 84.57%;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #A2A2A2;
+    border-radius: 4px;
+    margin-top: 5%;
+}
+div.contacto__contenedor__nombre > * {
+    padding-left: 5%;
+    padding-right: 5%;
+}

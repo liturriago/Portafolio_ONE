@@ -1,0 +1,10 @@
+.contacto {
+    width: 100%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    background-color: #EAF2FD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

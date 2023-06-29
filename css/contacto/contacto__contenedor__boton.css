@@ -1,0 +1,6 @@
+.contacto__contenedor__boton{
+    margin-top: 8%;
+    width: 84%;
+    display: flex;
+    justify-content: flex-start;
+}

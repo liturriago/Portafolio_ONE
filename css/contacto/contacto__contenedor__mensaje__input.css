@@ -1,0 +1,13 @@
+.contacto__contenedor__mensaje__input{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 87.5%;
+    color: #A2A2A2;
+    line-height: normal;
+    margin-top: 4%;
+    width: 97%;
+    height: 100%;
+    border: none;
+    display: flex;
+    align-self: flex-start;
+}
