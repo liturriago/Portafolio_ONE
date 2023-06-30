@@ -335,4 +335,29 @@ mensaje__input.addEventListener('focus', function(){
 mensaje__input.addEventListener('blur', function(){
     mensaje__contenedor.style.borderBottomColor = "#A2A2A2";
 });
+const boton__enviar__mensaje = document.querySelector('.contacto__contenedor__boton__enviar');
+boton__enviar__mensaje.addEventListener('click', () => {
+  if (nombre__input.value && correo__input.value && asunto__input.value && mensaje__input.value) {
+    nombre__input.value = '';
+    correo__input.value = '';
+    asunto__input.value = '';
+    mensaje__input.value = '';
+    alert('Su mensaje ha sido enviado');
+  } else {
+    let inputsFaltantes = '';
+    if (!nombre__input.value) {
+      inputsFaltantes += '\n - Nombre';
+    }
+    if (!correo__input.value) {
+      inputsFaltantes += '\n - Correo';
+    }
+    if (!asunto__input.value) {
+      inputsFaltantes += '\n - Asunto';
+    }
+    if (!mensaje__input.value) {
+      inputsFaltantes += '\n - Mensaje';
+    }
+    alert('Falta(n) llenar el(los) siguiente(s) campo(s):' + inputsFaltantes);
+  }
+});
 </script>
